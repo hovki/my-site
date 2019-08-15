@@ -1,0 +1,420 @@
+html, 
+body {
+	width: 100%;
+	height: 100%;
+	color: #86878b;
+	line-height: 1.5;
+}
+
+.page {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	height: 70px;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.header__logo-link {
+	transition: opacity .3s;
+}
+
+.header__logo-link:hover {
+	opacity: 0.7;
+}
+
+.header__list-link {
+	color: #fff;
+	transition: opacity .3s;
+}
+
+.header__list-link:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header__logo {
+
+}
+		
+.header__nav {
+
+}
+			
+.header__list {
+	display: flex;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.header__list:hover .header__list-link {
+	opacity: 0.7;
+}
+
+.header__list .header__list-link:hover  {
+	opacity: 1;
+}
+		
+.header__item {
+	list-style-type: none;	
+}
+
+.header__item:not(:last-child) {
+	margin-right: 45px;
+}
+
+
+		
+main {
+
+}
+
+.btn {
+	padding: 15px 30px;
+	color: #fff;
+}
+
+.btn_transparent {
+	border: 1px solid #fff;
+	background-color: transparent;
+	border-radius: 0;
+}
+
+.preview {
+	background-image: url("../images/content/Background_preview.jpg");
+	padding-top: 110px;
+	padding-bottom: 140px;
+}
+
+.preview__logo {
+	height: 60px;
+	width: 175px;
+	margin-bottom: 35px;
+}
+
+.preview__logo-image {
+	height: 100%;
+	width: 100%;
+
+}
+
+.preview__title {
+	color: #fff;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.preview__title::before {
+	position: absolute;
+	content: "";
+	width: 65px;
+	height: 2px;
+	background-color: #fff;
+	bottom: -40px;
+}
+
+.preview__text {
+	color: #fff;
+	opacity: 0.8;
+	margin-bottom: 45px;
+}
+
+.preview__button {
+
+}
+
+form {
+
+}
+
+.form__fieldset {
+	background-color: #fff;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.form__legend {
+	color: #333333;
+	background-color: #f5f5f5;
+	margin-bottom: 0;
+	padding: 20px 50px;
+	line-height: 20px;
+}
+
+.form__legend span {
+	color: #ff8b38;
+}
+
+.form__input {
+	margin: 0 40px;
+	width: calc(100% - 80px);
+}
+
+.form__submit {
+	background-color: #ff8b38;
+	width: 100%;
+	border: none;
+	align-items: center;
+}
+
+.form__textarea {
+
+}
+
+.social {
+
+}
+
+.social__title {
+
+}
+
+.social__text {
+
+}
+
+.social__list {
+
+}
+
+.social__item {
+
+}
+
+.social__link {
+
+}
+
+.social_image {
+
+}
+
+.tab {
+
+}
+
+.tab__list {
+
+}
+
+.tab__item {
+
+}
+
+
+.tab__link {
+
+}
+
+.tab__wrap {
+
+}
+
+.tab__content {
+
+}
+
+.tab__title {
+
+}
+
+.tab__text {
+
+}
+
+.tab__button {
+
+}
+
+.tab__image {
+
+}
+
+.sublist {
+
+}
+
+.sublist__image {
+
+}
+
+.sublist_picture {
+
+}
+		
+.sublist__title {
+
+}
+
+.sublist__text {
+
+}
+
+.sublist__list {
+
+}
+				
+.sublist__item {
+
+}
+				
+.sublist__description {
+
+}
+
+.sublist__headline {
+
+}
+
+.sublist_gray {
+
+}
+
+.advantages {
+
+}
+
+.advantages__title {
+
+}
+
+.advantages__text {
+
+}
+
+.advantages__image {
+
+}
+
+.advantages__headlile {
+
+}
+
+.pricing {
+
+}
+
+.pricing__title {
+
+}
+
+.pricing__text {
+
+}
+
+.pricing_black {
+
+}
+	
+.pricing__tarif {
+
+}
+
+.pricing__price {
+
+}
+
+.pricing__currency {
+
+}
+
+.pricing__frequence {
+
+}
+
+.pricing_white {
+}
+	
+.pricing__options {
+
+}
+
+.pricing__option {
+
+}
+	
+.pricing__bestseller {
+
+}
+
+.pricing__popular {
+
+}		
+
+.review {
+
+}
+
+.review__title {
+
+}
+
+.review__text {
+
+}
+
+.review__button {
+
+}
+
+.review__quote {
+
+}
+
+.review__cite {
+
+}
+
+.review__author {
+
+}
+
+.review__position {
+
+}
+
+.stylish {
+
+}
+
+.stylish__title {
+
+}
+
+.stylish__text {
+
+}
+
+.stylish_button {
+
+}
+
+.feedback {
+
+}
+
+.feedback__title {
+
+}
+
+.feedback__text {
+
+}
+
+footer {
+
+}
+
+.footer__social {
+
+}
